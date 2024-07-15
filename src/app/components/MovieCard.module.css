@@ -1,0 +1,44 @@
+.card {
+    background-color: rgb(23, 22, 22);
+    border-radius: 15px; /* Rounds corners of the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.2s;
+    margin: 10px;
+    width: 200px;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .image {
+    width: 100%;
+    border-top-left-radius: 15px; /* Rounds top-left corner */
+    border-top-right-radius: 15px; /* Rounds top-right corner */
+  }
+  
+  .details {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .rating {
+    color: #ffb400;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .starFilled {
+    color: #ffb400;
+  }
+  
+  .starEmpty {
+    color: #e0e0e0;
+  }
+  

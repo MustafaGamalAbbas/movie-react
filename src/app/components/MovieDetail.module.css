@@ -1,0 +1,104 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Aligns content to the bottom */
+  }
+  
+  .backgroundWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    z-index: -1;
+    overflow: hidden;
+  }
+  
+  .background {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 50px;
+    padding-bottom: 150px;
+    padding-left: 100px;
+    text-align: left;
+  }
+  
+  .poster {
+    flex-shrink: 0;
+    margin-right: 20px;
+  }
+  
+  .poster img {
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .details {
+    flex: 1;
+  }
+  
+  .title {
+    font-size: 2.5em;
+    margin: 20px 0;
+  }
+  
+  .meta {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  
+  .buttons button {
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .buttons button:hover {
+    background-color: #cc0000;
+  }
+  
+  .storyLine {
+    font-size: 1.5em;
+    margin: 20px 0;
+  }
+  
+  .overview {
+    font-size: 1.2em;
+    width: 60%;
+    color:#606060
+  }
+  

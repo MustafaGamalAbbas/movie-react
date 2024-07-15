@@ -1,0 +1,73 @@
+/* Overall container to center the card */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(23, 22, 22);
+  }
+  
+  /* Card styling */
+  .card {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Title styling */
+  .title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Form styling */
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Input group styling */
+  .inputGroup {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  /* Label styling */
+  .inputGroup label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black; /* Change label color to black */
+  }
+  
+  /* Input field styling */
+  .inputGroup input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: white; /* Change input background color to white */
+    color: grey; /* Change input text color to grey */
+  }
+  
+  /* Submit button styling */
+  .submitButton {
+    padding: 10px;
+    background-color:  #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submitButton:hover {
+    background-color:  #cc0000;
+  }
+  
