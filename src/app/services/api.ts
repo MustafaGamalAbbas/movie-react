@@ -1,5 +1,3 @@
-import axios from 'axios';
-
 const API_KEY = 'fffc11bad42e01fa3032fb760b319219';
 const BASE_URL = 'https://api.themoviedb.org/3/discover';
 export const fetchMovies = async () => {
@@ -15,7 +13,7 @@ export const fetchMovies = async () => {
   }
 };
 
-export const fetchMovie = async (id: String ) => {
+export const fetchMovie = async (id: any ) => {
     
     try {
        const res = await fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=fffc11bad42e01fa3032fb760b319219&append_to_response=genres`);
